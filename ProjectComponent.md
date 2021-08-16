@@ -7,11 +7,11 @@ Relevent Fields:
 ```
 apiVersion: backstage.io/v1alpha1
 kind: Component
-metadata
+metadata:
     name: project-name
     description: Software that achieves goals
     links: Confluence/Cerebro link
-spec
+spec:
     type: 
     lifecycle: 
     owner: deploy
