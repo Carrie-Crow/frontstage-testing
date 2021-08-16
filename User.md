@@ -6,10 +6,10 @@ Relevent Fields:
 ```
 apiVersion: backstage.io/v1alpha1
 kind: User
-metadata
+metadata:
     name: carrie.crow
     links: URL?
-spec
+spec:
     memberOf: deploy
     profile:
         email: Carrie.Crow@zendesk.com

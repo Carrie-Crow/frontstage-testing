@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: Sahil Surapaneni
+    links: https://cerebro.zende.sk/users/sahil-surapaneni
+spec:
+    memberOf: Deploy
+    profile:
+        email: sahil.surapaneni@zendesk.com

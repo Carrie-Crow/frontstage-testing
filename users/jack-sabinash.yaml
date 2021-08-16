@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+    name: Jack Sabinash
+    links: https://cerebro.zende.sk/users/jack-sabinash
+spec:
+    memberOf: Deploy
+    profile:
+        email: jack.sabinash@zendesk.com
