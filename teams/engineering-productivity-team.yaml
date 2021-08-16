@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+    name: Engineering Productivity
+    description: Manages company engineers
+    links: https://cerebro.zende.sk/teams/eng-productivity
+spec:
+    type: team

@@ -7,11 +7,11 @@ Relevent Fields:
 ```
 apiVersion: backstage.io/v1alpha1
 kind: Group
-metadata
+metadata:
     name: deploy
     description: Manages company deployments
     links: Confluence link
-spec
+spec:
     type: team
     members: team members
     parent: engineering
