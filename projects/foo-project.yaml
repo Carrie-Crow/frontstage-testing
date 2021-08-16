@@ -1,10 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-    name: foo-project-name
-    description: Fake opensource Zendesk Software that achieves goals
-    links: http://www.yahoo.com
+  name: foo-project-name
+  description: Fake opensource Zendesk Software that achieves goals
+  links: 
+    - url: http://www.yahoo.com
+      title: Yahoo Test
+    - url: https://github.com/zendesk/unity-builder
+      title: GitHub Repo
+      icon: github
 spec:
-    type: website
-    lifecycle: production
-    owner: Deploy
+  type: website
+  lifecycle: production
+  owner: group:deploy

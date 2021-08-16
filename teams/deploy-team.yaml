@@ -1,9 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-    name: Deploy
+    name: deploy
     description: Manages company deployments
-    links: https://cerebro.zende.sk/teams/deploy
+    links: 
+        - url: https://cerebro.zende.sk/teams/deploy
+          title: Cerebro Link
 spec:
     type: team
-    parent: Engineering Productivity
+    profile:
+        displayName: Deploy
+    parent: engineering-productivity
+    children: []

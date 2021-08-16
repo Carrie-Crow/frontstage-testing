@@ -1,9 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-    name: Carrie Crow
-    links: https://cerebro.zende.sk/users/carrie-crow
+  name: carrie-crow
+  links: 
+    - url: https://cerebro.zende.sk/users/carrie-crow
+      title: Cerebro Link
 spec:
-    memberOf: Deploy
-    profile:
-        email: Carrie.Crow@zendesk.com
+  memberOf: [deploy]
+  profile:
+    displayName: Carrie Crow
+    email: Carrie.Crow@zendesk.com

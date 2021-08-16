@@ -1,12 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-    name: bar-project-name
-    description: Fake opensource Zendesk Software that achieves goals
-    links: 
-        url: http://www.bing.com
-        title: Bing test
+  name: bar-project-name
+  description: Fake opensource Zendesk Software that achieves goals
+  links: 
+    - url: http://www.bing.com
+      title: Bing Test
+    - url: https://github.com/zendesk/jenkins-action
+      title: GitHub Repo
+      icon: github
 spec:
-    type: website
-    lifecycle: production
-    owner: Deploy
+  type: website
+  lifecycle: production
+  owner: group:deploy
