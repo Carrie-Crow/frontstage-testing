@@ -3,7 +3,9 @@ kind: Component
 metadata:
     name: bar-project-name
     description: Fake opensource Zendesk Software that achieves goals
-    links: http://www.bing.com
+    links: 
+        url: http://www.bing.com
+        title: Bing test
 spec:
     type: website
     lifecycle: production
