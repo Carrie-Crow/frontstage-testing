@@ -9,6 +9,8 @@ metadata:
     - url: https://github.com/zendesk/unity-builder
       title: GitHub Repo
       icon: github
+  annotations:
+    github.com/project-slug: github.com/swagger-api/swagger-petstore
 spec:
   type: website
   lifecycle: production
