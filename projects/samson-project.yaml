@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Samson
+  description: Fake opensource Zendesk Software that achieves goals
+  links: 
+    - url: http://www.bing.com
+      title: Bing Test
+    - url: https://github.com/zendesk/samson
+      title: GitHub Repo
+      icon: github
+  annotations:
+    github.com/project-slug: github/zendesk/samson
+    github_repo_url: github.com/repos/zendesk/samson
+spec:
+  type: website
+  lifecycle: production
+  owner: group:deploy
