@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Jack Sabinash
+  name: jack-sabinash
   links: 
   - url: https://cerebro.zende.sk/users/jack-sabinash
     title: Cerebro Link
