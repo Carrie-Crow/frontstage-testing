@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Sahil Surapaneni
+  name: sahil-surapaneni
   links: 
     - url: https://cerebro.zende.sk/users/sahil-surapaneni
       title: Cerebro Link
