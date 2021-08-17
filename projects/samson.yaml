@@ -7,7 +7,7 @@ metadata:
   links: 
     - url: https://cerebro.zende.sk/projects/samson
       title: Cerebro
-    -url: https://zendesk.atlassian.net/wiki/spaces/INFR/pages/96470779/Samson
+    - url: https://zendesk.atlassian.net/wiki/spaces/INFR/pages/96470779/Samson
       title: Project Page
     - url: https://github.com/zendesk/samson
       title: GitHub Repo
