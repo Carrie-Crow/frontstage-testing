@@ -4,13 +4,13 @@ metadata:
   name: Samson
   description: Fake opensource Zendesk Software that achieves goals
   links: 
-    - url: http://www.bing.com
-      title: Bing Test
+    - url: https://cerebro.zende.sk/projects/samson
+      title: Cerebro
     - url: https://github.com/zendesk/samson
       title: GitHub Repo
       icon: github
   annotations:
-    github.com/project-slug: github/zendesk/samson
+    github.com/project-slug: zendesk/samson
     github_repo_url: github.com/repos/zendesk/samson
 spec:
   type: service
