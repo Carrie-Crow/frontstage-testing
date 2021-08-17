@@ -10,7 +10,7 @@ metadata:
       title: GitHub Repo
       icon: github
   annotations:
-    github.com/project-slug: github.com/swagger-api/swagger-petstore
+    'github_repo_url': https://github.com/repo/zendesk/jenkins-action
 spec:
   type: website
   lifecycle: production
