@@ -10,4 +10,4 @@ spec:
   type: team
   profile:
     displayName: Engineering Productivity
-  children: deploy
+  children: [deploy]
