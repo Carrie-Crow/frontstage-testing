@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Halyard
+  description: A tool for configuring, installing, and updating Spinnaker.
+  links: 
+    - url: https://cerebro.zende.sk/repositories/halyard
+      title: Cerebro
+    - url: https://github.com/zendesk/halyard
+      title: GitHub Repo
+      icon: github
+  annotations:
+    github.com/project-slug: zendesk/halyard
+    github_repo_url: github.com/repos/zendesk/halyard
+spec:
+  type: service
+  lifecycle: production
+  owner: group:deploy
