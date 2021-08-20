@@ -11,7 +11,7 @@ metadata:
       icon: github
   annotations:
     github.com/project-slug: zendesk/halyard
-    github_repo_url: github.com/repos/zendesk/halyard
+    github_repo_url: github.com/repos/spinnaker/halyard
 spec:
   type: service
   lifecycle: production
